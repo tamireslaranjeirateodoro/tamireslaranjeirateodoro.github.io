@@ -1,0 +1,241 @@
+/* reset dos estilos */
+
+body h1, h2, h3, ul, li{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* estilizando o body */
+
+body{
+    background-color: brown;
+    color: cornsilk;
+    margin: 0px auto;
+    width: 1000px;
+    border-style: solid;
+}
+
+/* estilizando o banner */
+
+.banner{
+    background-image: url("/imagens/bannerfinal.png");
+    height: 300px;
+}
+
+.menu{
+    background-color: white;
+    color: black;
+    display:inline-block;
+    margin-left: 630px;
+    margin-top: 20px; 
+    padding: 10px 10px;  
+}
+
+.menu ul{
+    list-style: none;  
+
+}
+
+.menu ul li {
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 10px;    
+}
+
+.menu ul li a{
+    text-decoration: none;
+}
+
+.menu ul li a:hover{
+    border-top: 2px;
+    border-bottom: 2px;
+    border-left: 0px;
+    border-right: 0px;
+    border-style: solid;
+}
+ 
+/* estilizando os pratos */
+
+.pratos h1{
+   text-align: center;
+   margin-top: 20px;
+}
+
+.imagens {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.prato1{
+    background-color: black;
+    margin-right: 20px;
+}
+
+.prato1 img{
+    width: 100px;
+    height: 100px;      
+}
+
+.prato2{
+    background-color: black;
+    margin-right: 20px;
+}
+
+.prato2 img{
+    width: 100px;
+    height: 100px;
+}
+
+.prato3{
+    background-color: black;
+    margin-right: 20px;
+}
+
+.prato3 img{
+    width: 100px;
+    height: 100px;
+}
+
+.prato4{
+    background-color: black;
+}
+
+.prato4 img{
+    width: 100px;
+    height: 100px;
+}
+
+.imagens-acomp {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 20px;    
+}
+
+.acomp h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.acomp1{
+    background-color: black;
+    margin-right: 5px;
+}
+
+.acomp1 img{
+    width: 100px;
+    height: 100px;
+}
+
+.acomp2{
+    background-color: black;
+    margin-right: 5px;
+}
+
+.acomp2 img{
+    width: 100px;
+    height: 100px;
+}
+
+.acomp3{
+    background-color: black;
+    margin-right: 5px;
+}
+
+.acomp3 img{
+    width: 100px;
+    height: 100px;
+}
+
+.acomp4{
+    background-color: black;
+    margin-right: 5px;
+}
+
+.acomp4 img{
+    width: 100px;
+    height: 100px;
+}
+
+.acomp5{
+    background-color: black;
+    margin-right: 5px;
+}
+
+.acomp5 img{
+    width: 100px;
+    height: 100px;
+}
+
+.rodape{
+    display: flex;
+}
+
+.pagamento{
+    text-align: center;   
+    margin-left: 100px;
+}
+
+.pagamento h1, h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.forma-pagamento button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.whats{
+    margin-left: 100px;
+    padding-top: 20px;
+}
+
+.whats h1{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.nome label{
+    margin-left: 100px;
+}
+
+.nome input{
+    margin-left: 10px;
+}
+
+.email{
+    margin-top: 10px;
+}
+
+.email label{
+    margin-left: 100px;    
+}
+
+.email input{
+    margin-left: 10px;
+}
+
+.telefone{
+    margin-top: 10px;
+}
+
+.telefone label{
+    margin-left: 100px;
+}
+
+.telefone input{
+    margin-left: 10px;
+    width: 153px;
+}
+
+.comentario{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.button{
+    margin-top: 20px;
+    margin-left: 280px;
+}
